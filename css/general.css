@@ -11,6 +11,16 @@
   box-sizing: border-box;
 }
 
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(231, 126, 35, 0.5);
+}
+
+.cta *:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(154, 108, 67, 0.3);
+}
+
 html {
   font-size: 62.5%;
 }
@@ -96,6 +106,7 @@ strong {
   border-bottom: 1px solid transparent;
 }
 
+.btn,
 .btn:link,
 .btn:visited {
   display: inline-block;
@@ -105,6 +116,10 @@ strong {
   font-weight: 600;
   border-radius: 10px;
   transition: background-color 0.3s;
+
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
 }
 
 .btn-main {
@@ -125,6 +140,18 @@ strong {
 .btn-sub:hover,
 .btn-sub:active {
   background-color: #e8d4c4;
+}
+
+.btn-form {
+  background-color: #7e4514;
+  color: #e8d4c4;
+  align-self: end;
+  padding: 1.2rem;
+}
+
+.btn-form:hover {
+  background-color: #fff;
+  color: #555;
 }
 
 .grid {
