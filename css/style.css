@@ -21,6 +21,7 @@
   display: flex;
   list-style: none;
   gap: 3.2rem;
+
   align-items: center;
 }
 
@@ -30,6 +31,8 @@
   text-decoration: none;
   font-weight: 500;
   font-size: 1.8rem;
+  color: #333;
+
   transition: all 0.3s;
 }
 
